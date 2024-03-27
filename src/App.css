@@ -15,7 +15,7 @@ hr,input{
     background-color:cadetblue ;
     height: 600px;
     padding: 30px;
-    background-image: url('./images/bgImg.jpg');
+    background-image: url('/images/bgImg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;

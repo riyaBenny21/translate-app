@@ -23,7 +23,7 @@ const Languages = ({onLanguageSelect,selectedLanguage}) => {
                 style={{ marginRight: '20px', marginBottom: '10px' }}
                 className={selectedLanguage === lang.code ? 'selected' : ''}
                 >
-                <img className='flag' src={`/src/images/${lang.code}.png`}></img>
+                <img className='flag' src={`/images/${lang.code}.png`}></img>
                 {lang.name}
                 </button>
                 {(index + 1) % 3 === 0 && <br />}
